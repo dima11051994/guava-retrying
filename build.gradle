@@ -5,8 +5,8 @@ version = '2.0.1'
 // Plugins
 
 apply plugin: 'java'
-sourceCompatibility = 1.7
-targetCompatibility = 1.7
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
 
 apply plugin: 'maven'
 
