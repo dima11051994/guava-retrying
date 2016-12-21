@@ -5,7 +5,7 @@ import org.gradle.api.artifacts.maven.MavenDeployment
 ext {
     project_group = 'com.github.dima11051994'
     project_version = '2.0.1'
-    project_jdk = '1.6'
+    project_jdk = '1.7'
     project_pom = {
         name 'guava-retrying'
         packaging 'jar'
