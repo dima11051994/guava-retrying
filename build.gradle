@@ -81,8 +81,9 @@ repositories {
 }
 
 dependencies {
-    compile 'com.google.guava:guava:19.0'
+    compile 'com.google.guava:guava:20.0'
     compile 'com.google.code.findbugs:jsr305:2.0.2'
+    compile 'com.github.dcendents:android-maven-gradle-plugin:1.3'
 
     // junit testing
     testCompile 'junit:junit:4.11'
