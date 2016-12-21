@@ -32,19 +32,11 @@ dependencies {
 task javadocJar(type: Jar, dependsOn: javadoc) {
     classifier = 'javadoc'
     from 'build/docs/javadoc'
-    doFirst {
-        // Timestamp changes on every build. By evaluating it later, won't needlessly fail up-to-date checks.
-        manifest = defaultManifest()
-    }
 }
 
 task sourcesJar(type: Jar) {
     classifier = 'sources'
     from sourceSets.main.allSource
-    doFirst {
-        // Timestamp changes on every build. By evaluating it later, won't needlessly fail up-to-date checks.
-        manifest = defaultManifest()
-    }
 }
 
 artifacts {
