@@ -3,7 +3,7 @@ import org.gradle.api.artifacts.maven.MavenDeployment
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Settings
 ext {
-    project_group = 'com.github.rholder'
+    project_group = 'com.github.dima11051994'
     project_version = '2.0.1'
     project_jdk = '1.6'
     project_pom = {
